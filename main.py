@@ -9,9 +9,8 @@ cv2.imshow("aslan.png",aslan_gri)
 
 cv2.waitKey()
 
-histBoyut=256
-histAralık=(0,256)
-
+arrSize=256
+arrRange=(0,256)
 
 Hist = np.zeros(256)
 
