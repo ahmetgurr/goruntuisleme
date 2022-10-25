@@ -9,8 +9,8 @@ cv2.imshow("aslan.png",aslan_gri)
 
 cv2.waitKey()
 
-histBoyut=256
-histAralık=(0,256)
+arrSize=256
+arrRange=(0,256)
 
 
 Hist = np.zeros(256)
@@ -19,7 +19,7 @@ Hist = np.zeros(256)
 
 for u in range (0,w):
    for v in range (0,h):
-       piksel=aslan_gri[u,v]
-       Hist[piksel]+=1
+       index=aslan_gri[u,v]
+       Hist[index]+=1
 
 
