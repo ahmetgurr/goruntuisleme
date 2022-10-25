@@ -19,7 +19,7 @@ Hist = np.zeros(256)
 
 for u in range (0,w):
    for v in range (0,h):
-       piksel=aslan_gri[u,v]
-       Hist[piksel]+=1
+       index=aslan_gri[u,v]
+       Hist[index]+=1
 
 
